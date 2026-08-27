@@ -1,6 +1,6 @@
 package technobushido.maratonajava.introducao;
 
-public class Aula02TiposPrimitivos {
+public class TiposPrimitivos {
     public static void main(String[] args){
         // int, double, float, char, byte, short, long e boolean
         int idade = 10;

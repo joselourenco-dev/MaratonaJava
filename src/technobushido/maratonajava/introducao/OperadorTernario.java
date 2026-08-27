@@ -1,4 +1,4 @@
 package technobushido.maratonajava.introducao;
 
-public class OperadoresAritmeticos {
+public class OperadorTernario {
 }
