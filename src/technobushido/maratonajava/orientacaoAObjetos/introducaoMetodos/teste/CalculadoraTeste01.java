@@ -6,8 +6,9 @@ public class CalculadoraTeste01 {
     static void main() {
         Calculadora calculadora = new Calculadora();
         calculadora.soma();
-        System.out.println("finalizando calculadora");
-        calculadora.subtrai();
 
+        calculadora.subtrai();
+        calculadora.multiplica(10, 10);
+        System.out.println("finalizando calculadora");
     }
 }
