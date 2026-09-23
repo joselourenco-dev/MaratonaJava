@@ -9,8 +9,20 @@ public class CarroTeste {
         carro.modelo = "Gol";
         carro.ano = 2020;
 
+        Carro carro2 = new Carro();
+        carro2.nome = "Fusca";
+        carro2.modelo = "Black";
+        carro2.ano = 2030;
+
+        carro  = carro2;
+
         System.out.println(carro.nome);
         System.out.println(carro.modelo);
         System.out.println(carro.ano);
+
+        System.out.println("");
+        System.out.println(carro2.nome);
+        System.out.println(carro2.modelo);
+        System.out.println(carro2.ano);
     }
 }
