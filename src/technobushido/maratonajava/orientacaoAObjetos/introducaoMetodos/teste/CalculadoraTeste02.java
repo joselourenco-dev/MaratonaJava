@@ -2,13 +2,10 @@ package technobushido.maratonajava.orientacaoAObjetos.introducaoMetodos.teste;
 
 import technobushido.maratonajava.orientacaoAObjetos.introducaoMetodos.dominio.Calculadora;
 
-public class CalculadoraTeste01 {
+public class CalculadoraTeste02 {
     static void main() {
         Calculadora calculadora = new Calculadora();
-        calculadora.soma();
-
-        calculadora.subtrai();
-        calculadora.multiplica(10, 10);
-        System.out.println("finalizando calculadora");
+        double resultado = calculadora.divide(10.0, 5.0);
+        System.out.println(resultado);
     }
 }
